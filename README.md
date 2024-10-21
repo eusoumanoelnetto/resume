@@ -4,10 +4,10 @@
 
 🏢 **Atuação Profissional**
 - 🚀 Suporte Help Desk na Servcom
-- 🎓 Doutorando em Engenharia de Software no [Estácio](https://estacio.br/cursos/graduacao/defesa-cibernetica)
+- 🎓 Graduação em Segurança Cibernética no [Estácio](https://estacio.br/cursos/graduacao/defesa-cibernetica)
 
 📱 **Especialidades**
-- 📚 Me especializando em Azure, Copilot, Git.
+- 📚 Me especializando em Azure, Copilot, Git e Python.
 
 ### 📊 Estatísticas no GitHub
 
