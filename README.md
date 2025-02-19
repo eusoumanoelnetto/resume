@@ -4,7 +4,7 @@
 
 🏢 **Atuação Profissional**
 - 🚀 Suporte Help Desk na Servcom
-- 🎓 Graduação em Segurança Cibernética no [Estácio](https://estacio.br/cursos/graduacao/defesa-cibernetica)
+- 🎓 Graduação em Segurança Cibernética no [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
 
 📱 **Especialidades**
 - 📚 Me especializando em Azure, Copilot, Git e Python.
