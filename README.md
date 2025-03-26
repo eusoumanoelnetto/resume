@@ -1,40 +1,131 @@
-### Olá, eu sou Manoel Neto (Netto) 👋
+# Hi, I'm Manoel Neto (Netto) 👋
+
+✨ **DIO Campus Expert** at [DIO](https://web.dio.me/track/5738a8a6-f6fc-43f9-919d-503ff392be2f) and a tech & education enthusiast.
+
+---
+
+## 🏢 Professional Background
+
+- 🚀 **Help Desk Support** at Servcom  
+- 🎓 **Bachelor's in Cybersecurity** from [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
+
+---
+
+## 📱 Skills
+
+- Specializing in **Azure**, **Git**, and **Python**; exploring the potentials of **GPT-4** and **GitHub Copilot** to optimize development processes.
+
+---
+
+## 📊 GitHub Stats
+
+![Manoel Neto's GitHub stats](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula&count_private=true)
+
+---
+
+## 🚀 Top Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact&count_private=true)
+
+---
+
+## 📌 Featured Projects
+
+- **[medgrandma-ai](https://github.com/eusoumanoelnetto/medgrandma-ai)** – A TypeScript application that leverages Gemini AI to help grandmothers identify their medications intuitively.
+- **[dio-lab-open-source](https://github.com/eusoumanoelnetto/dio-lab-open-source)** – A collaborative project from the Digital Innovation One lab, showcasing open source contribution practices.
+- **[apresentacao-geek](https://github.com/eusoumanoelnetto/apresentacao-geek)** – A personal project developed using **GitHub Copilot** and refined with **GPT**; it highlights the fusion of AI and creativity to create an interactive presentation.
+
+---
+
+<div align="center">
+  <!-- Alternative theme (bear) -->
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=bear&count_private=true" alt="GitHub Stats Bear" />
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&theme=bear&count_private=true" alt="Top Langs Bear" />
+</div>
+
+---
+
+## 🔗 Connect With Me
+
+<div align="center">
+  <a href="https://instagram.com/eusoumanoelnetto" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://discord.gg/#" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="mailto:manoelccoelho@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/eusoumanoelnetto" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
+
+---
+
+<hr />
+
+# Olá, eu sou Manoel Neto (Netto) 👋
 
 ✨ **DIO Campus Expert** na [DIO](https://web.dio.me/track/5738a8a6-f6fc-43f9-919d-503ff392be2f) e entusiasta de tecnologia e educação.
 
-🏢 **Atuação Profissional**
-- 🚀 Suporte Help Desk na Servcom
-- 🎓 Graduação em Segurança Cibernética no [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
+---
 
-📱 **Especialidades**
-- 📚 Me especializando em Azure, Copilot, Git e Python.
+## 🏢 Atuação Profissional
 
-### 📊 Estatísticas no GitHub
+- 🚀 **Suporte Help Desk** na Servcom  
+- 🎓 **Graduação em Segurança Cibernética** no [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
 
-![Manoel Netto's GitHub stats](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula)
+---
 
-### 📌 Projetos em Destaque
+## 📱 Especialidades
 
-TODO: Incluir projetos legais!
+- Me especializando em **Azure**, **Git** e **Python**; explorando as potencialidades do **GPT-4** e do **GitHub Copilot** para otimizar processos de desenvolvimento.
 
-### 🚀 Linguagens Mais Usadas
+---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact)
+## 📊 Estatísticas no GitHub
 
----  
-<table>
-  <tr>
-    <td>
-    <div align = "left">  
-  <img height = "200em" src="https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&show_icons=true&theme=bear&count_private=true" />
-  <img height = "200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&show_icons=true&theme=bear&count_private=true"/>
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula&count_private=true)
+
+---
+
+## 🚀 Linguagens Mais Usadas
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact&count_private=true)
+
+---
+
+## 📌 Projetos em Destaque
+
+- **[medgrandma-ai](https://github.com/eusoumanoelnetto/medgrandma-ai)** – Aplicação em TypeScript que utiliza Gemini AI para ajudar vovós a identificar seus medicamentos de forma intuitiva.
+- **[dio-lab-open-source](https://github.com/eusoumanoelnetto/dio-lab-open-source)** – Projeto colaborativo do laboratório da Digital Innovation One, demonstrando práticas de contribuição open source.
+- **[apresentacao-geek](https://github.com/eusoumanoelnetto/apresentacao-geek)** – Projeto pessoal desenvolvido utilizando o **GitHub Copilot** e revisado com o **GPT**; demonstra a integração entre IA e criatividade para criar uma apresentação interativa.
+
+---
+
+<div align="center">
+  <!-- Opção com tema alternativo (bear) -->
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=bear&count_private=true" alt="GitHub Stats Bear" />
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&theme=bear&count_private=true" alt="Top Langs Bear" />
 </div>
-    </td>
-  </tr>
-</table>
-<div> 
-  <a href="https://instagram.com/eusoumanoelnetto" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg/#" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:manoelccoelho@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/eusoumanoelnetto" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+
+---
+
+## 🔗 Conecte-se Comigo
+
+<div align="center">
+  <a href="https://instagram.com/eusoumanoelnetto" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://discord.gg/#" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="mailto:manoelccoelho@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/eusoumanoelnetto" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </div>
