@@ -1,0 +1,53 @@
+/* Glitch suave no card */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+    filter: none;
+  }
+  20% {
+    transform: translate(-2px, 2px);
+    filter: drop-shadow(2px 0 red);
+  }
+  40% {
+    transform: translate(2px, -2px);
+    filter: drop-shadow(-2px 0 cyan);
+  }
+  60% {
+    transform: translate(-2px, 2px);
+    filter: drop-shadow(2px 0 red);
+  }
+  80% {
+    transform: translate(2px, -2px);
+    filter: drop-shadow(-2px 0 cyan);
+  }
+  100% {
+    transform: translate(0);
+    filter: none;
+  }
+}
+
+/* Brilho neon pulsante */
+@keyframes neonGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px #00fff7, 0 0 15px #00fff7, 0 0 20px #00fff7;
+  }
+  50% {
+    box-shadow: 0 0 15px #00fff7, 0 0 30px #00fff7, 0 0 40px #00fff7;
+  }
+}
+
+/* Aplicar aos cards */
+.w3-card-4 {
+  animation: glitch 2s infinite ease-in-out;
+  border: 1.5px solid #00fff7;
+  background-color: #0a0a0a;
+  color: #e0f7fa;
+  transition: transform 0.3s ease;
+}
+
+.w3-card-4:hover {
+  animation: neonGlow 1.5s infinite alternate;
+  transform: translateY(-10px) scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 30px #00fff7;
+}
