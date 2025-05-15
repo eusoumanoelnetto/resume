@@ -1,53 +1,62 @@
-/* Glitch suave no card */
-@keyframes glitch {
-  0% {
-    transform: translate(0);
-    filter: none;
-  }
-  20% {
-    transform: translate(-2px, 2px);
-    filter: drop-shadow(2px 0 red);
-  }
-  40% {
-    transform: translate(2px, -2px);
-    filter: drop-shadow(-2px 0 cyan);
-  }
-  60% {
-    transform: translate(-2px, 2px);
-    filter: drop-shadow(2px 0 red);
-  }
-  80% {
-    transform: translate(2px, -2px);
-    filter: drop-shadow(-2px 0 cyan);
-  }
-  100% {
-    transform: translate(0);
-    filter: none;
-  }
+.black-btn {
+  width: 100%;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px;
+  transition: all 0.3s ease;
 }
 
-/* Brilho neon pulsante */
-@keyframes neonGlow {
-  0%, 100% {
-    box-shadow: 0 0 5px #00fff7, 0 0 15px #00fff7, 0 0 20px #00fff7;
-  }
-  50% {
-    box-shadow: 0 0 15px #00fff7, 0 0 30px #00fff7, 0 0 40px #00fff7;
-  }
+.black-btn:hover {
+  background-color: #111;
+  color: #0ff;
+  box-shadow: 0 0 10px #0ff;
 }
 
-/* Aplicar aos cards */
-.w3-card-4 {
-  animation: glitch 2s infinite ease-in-out;
-  border: 1.5px solid #00fff7;
-  background-color: #0a0a0a;
-  color: #e0f7fa;
-  transition: transform 0.3s ease;
+
+
+body.black-mirror-mode {
+  background-color: #000 !important;
+  color: #0ff !important;
+  font-family: 'Courier New', monospace;
 }
 
-.w3-card-4:hover {
-  animation: neonGlow 1.5s infinite alternate;
-  transform: translateY(-10px) scale(1.05);
-  cursor: pointer;
-  box-shadow: 0 0 30px #00fff7;
+body.black-mirror-mode .w3-white {
+  background-color: #111 !important;
+  color: #0ff !important;
+  box-shadow: 0 0 10px #0ff;
+}
+
+body.black-mirror-mode .w3-card,
+body.black-mirror-mode .w3-card-4 {
+  background-color: #111 !important;
+  border: 1px solid #0ff;
+  box-shadow: 0 0 15px #0ff;
+}
+
+body.black-mirror-mode h2,
+body.black-mirror-mode h3,
+body.black-mirror-mode h5,
+body.black-mirror-mode p,
+body.black-mirror-mode li,
+body.black-mirror-mode span {
+  color: #0ff !important;
+}
+
+body.black-mirror-mode .w3-teal {
+  background-color: #0ff !important;
+  color: #000 !important;
+}
+
+body.black-mirror-mode a {
+  color: #f0f !important;
+  text-shadow: 0 0 5px #f0f;
+}
+
+body.black-mirror-mode img {
+  filter: grayscale(100%) contrast(120%);
+  box-shadow: 0 0 10px #0ff;
+}
+
+body.black-mirror-mode .w3-light-grey {
+  background-color: #111 !important;
 }
