@@ -60,3 +60,29 @@ body.black-mirror-mode img {
 body.black-mirror-mode .w3-light-grey {
   background-color: #111 !important;
 }
+/* Background preto total */
+.black-mirror {
+  background-color: #000000;
+  color: #00ffea; /* verde/neon que lembra a série */
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Exemplo de efeito pulsante em botões */
+.black-mirror button {
+  background: #000;
+  border: 2px solid #00ffea;
+  color: #00ffea;
+  box-shadow: 0 0 10px #00ffea;
+  animation: pulseNeon 2s infinite;
+  cursor: pointer;
+}
+
+/* Animação pulse neon */
+@keyframes pulseNeon {
+  0%, 100% {
+    box-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea, 0 0 40px #00ffea;
+  }
+}

@@ -352,6 +352,31 @@
       document.body.classList.toggle('black-mirror-mode');
     }
   </script>
+
+  <!-- Adicione isso no seu HTML, preferencialmente no fim do body -->
+<audio id="clickSound" src="click-sound.mp3" preload="auto"></audio>
+
+<script>
+  const clickSound = document.getElementById('clickSound');
+  const body = document.body;
+
+  document.addEventListener('click', (e) => {
+    if (body.classList.contains('black-mirror') && e.target.tagName === 'BUTTON') {
+      clickSound.currentTime = 0; // restart do som
+      clickSound.play();
+    }
+  });
+</script>
+<button id="toggleBlackMirror">Modo Black Mirror</button>
+
+<script>
+  const toggleBtn = document.getElementById('toggleBlackMirror');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('black-mirror');
+  });
+</script>
+
+
 </body>
 
 
