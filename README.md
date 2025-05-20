@@ -1,4 +1,4 @@
-# Hi, I'm Manoel Neto (Netto) 👋
+# Hi, I'm Manoel Coelho 👋
 
 ✨ **DIO Campus Expert** at [DIO](https://web.dio.me/track/5738a8a6-f6fc-43f9-919d-503ff392be2f) and a tech & education enthusiast.
 
@@ -66,7 +66,7 @@
 
 <hr />
 
-# Olá, eu sou Manoel Neto (Netto) 👋
+# Olá, eu sou Manoel Coelho 👋
 
 ✨ **DIO Campus Expert** na [DIO](https://web.dio.me/track/5738a8a6-f6fc-43f9-919d-503ff392be2f) e entusiasta de tecnologia e educação.
 
