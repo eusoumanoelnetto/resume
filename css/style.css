@@ -1,3 +1,27 @@
+/* Language Selector Styles */
+.lang-btn {
+  transition: all 0.3s ease;
+  margin: 0 2px;
+  background-color: transparent;
+  border: none;
+}
+
+.lang-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.lang-btn.active {
+  background-color: white !important;
+  color: #009688 !important;
+  font-weight: bold;
+}
+
+/* Row Padding Override */
+.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
+    padding: 0 0px;
+    margin-top: 3%;
+}
+
 .black-btn {
   width: 100%;
   font-weight: bold;

@@ -9,6 +9,8 @@
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/translations.js"></script>
+	<script src="js/verify-translations.js" defer></script>
 	<style>
 		html,
 		body,
@@ -25,8 +27,23 @@
 
 <body class="w3-light-grey">
 
+	<!-- Language Selector -->
+	<div class="w3-top w3-bar w3-teal" style="z-index:1000">
+		<div class="w3-bar-item">
+			<button class="w3-button lang-btn active" onclick="changeLanguage('pt')" title="Português">
+				<img src="https://flagcdn.com/w40/br.png" alt="PT" style="width:25px;height:auto;vertical-align:middle;"> PT
+			</button>
+			<button class="w3-button lang-btn" onclick="changeLanguage('en')" title="English">
+				<img src="https://flagcdn.com/w40/us.png" alt="EN" style="width:25px;height:auto;vertical-align:middle;"> EN
+			</button>
+			<button class="w3-button lang-btn" onclick="changeLanguage('es')" title="Español">
+				<img src="https://flagcdn.com/w40/es.png" alt="ES" style="width:25px;height:auto;vertical-align:middle;"> ES
+			</button>
+		</div>
+	</div>
+
 	<!-- Page Container -->
-	<div class="w3-content w3-margin-top" style="max-width:1400px;">
+	<div class="w3-content w3-margin-top" style="max-width:1400px;margin-top:60px;">
 
 		<!-- The Grid -->
 		<div class="w3-row-padding">
@@ -42,9 +59,8 @@
 						</div>
 					</div>
 					<div class="w3-container">
-						<p><i class="fa fa-bullseye fa-fw w3-margin-right w3-large w3-text-teal"></i>Atuar como Desenvolvedor Full Stack, QA ou Agente de IA, aplicando tecnologia e testes para criar soluções eficientes e inteligentes.</p>
-						<p><p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>IA Agent |
-							Software Engineering Pro | Cybersecurity Student</p>
+						<p><i class="fa fa-bullseye fa-fw w3-margin-right w3-large w3-text-teal"></i><span data-lang="objective">Atuar como Desenvolvedor Full Stack, QA ou Agente de IA, aplicando tecnologia e testes para criar soluções eficientes e inteligentes.</span></p>
+						<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><span data-lang="role">IA Agent | Software Engineering Pro | Cybersecurity Student</span></p>
 						<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Rio de Janeiro, BR</p>
 						<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>manoelccoelho@gmail.com
 						</p>
@@ -52,7 +68,7 @@
 						<hr>
 
 						<p class="w3-large">
-							<b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Hard Skills</b></p>
+							<b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i><span data-lang="hardSkills">Hard Skills</span></b></p>
 						<p>IA Generativa</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
 							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:53%">53%</div>
@@ -77,42 +93,42 @@
 						</div>
 						<br>
 						<p class="w3-large">
-							<b><i class="fa fa-user fa-fw w3-margin-right w3-text-teal"></i>Soft Skills</b></p>
+							<b><i class="fa fa-user fa-fw w3-margin-right w3-text-teal"></i><span data-lang="softSkills">Soft Skills</span></b></p>
 						<section class="skills">
 							<ul>
-								<li><span>Pensamento Crítico</span></li>
-								<li><span>Adaptabilidade</span></li>
-								<li><span>Resiliência</span></li>
-								<li><span>Comunicação Eficaz</span></li>
-								<li><span>Aprendizagem Ativa</span></li>
-								<li><span>Autonomia</span></li>
-								<li><span>Iniciativa</span></li>
-								<li><span>Gestão de projetos</span></li>
-								<li><span>Resolução de problemas</span></li>
-								<li><span>Liderança</span></li>
-								<li><span>Trabalho em equipe</span></li>
-								<li><span>Docência</span></li>
+								<li><span data-lang="skill1">Pensamento Crítico</span></li>
+								<li><span data-lang="skill2">Adaptabilidade</span></li>
+								<li><span data-lang="skill3">Resiliência</span></li>
+								<li><span data-lang="skill4">Comunicação Eficaz</span></li>
+								<li><span data-lang="skill5">Aprendizagem Ativa</span></li>
+								<li><span data-lang="skill6">Autonomia</span></li>
+								<li><span data-lang="skill7">Iniciativa</span></li>
+								<li><span data-lang="skill8">Gestão de projetos</span></li>
+								<li><span data-lang="skill9">Resolução de problemas</span></li>
+								<li><span data-lang="skill10">Liderança</span></li>
+								<li><span data-lang="skill11">Trabalho em equipe</span></li>
+								<li><span data-lang="skill12">Docência</span></li>
 
 							</ul>
 						</section>
 						<br>
 						<p class="w3-large w3-text-theme">
-							<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b></p>
-						<p>Português - Nativo</p>
+							<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i><span data-lang="languages">Idiomas</span></b></p>
+						<p><span data-lang="langPT">Português - Nativo</span></p>
 						<div class="w3-light-grey w3-round-xlarge">
 							<div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
 						</div>
-						<p>Espanhol - Básico</p>
+						<p><span data-lang="langES">Espanhol - Básico</span></p>
 						<div class="w3-light-grey w3-round-xlarge">
 							<div class="w3-round-xlarge w3-teal" style="height:24px;width:45%"></div>
 						</div>
-						<p>Inglês - Técnico</p>
+						<p><span data-lang="langEN">Inglês - Técnico</span></p>
 						<div class="w3-light-grey w3-round-xlarge">
 							<div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
 						</div>
 						<br>
 						<p class="w3-large w3-text-theme">
-							<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Certificados</b></p>
+							<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i><span data-lang="certificates">Certificados</span></b></p>
 						<p></p>
 						<div class="w3-row">
 							<div class="w3-third">
@@ -130,10 +146,9 @@
 										<img src="assets/aws-educate-introduction-to-generative-ai.png" style="width:100%" onclick="onClick(this)" alt="AWS Educate Introduction to Generative AI">
 										<p>
 											<p>
-												<a href="https://eusoumanoelnetto.github.io/certificate/"
-													onclick="w3_close()"
-													class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-toggle-right fa-fw w3-margin-let"></i>VER
-													MAIS</a>
+											<a href="https://eusoumanoelnetto.github.io/certificate/"
+												onclick="w3_close()"
+												class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-toggle-right fa-fw w3-margin-let"></i><span data-lang="seeMore">VER MAIS</span></a>
 									</div>
 								</div>
 								<br>
@@ -143,7 +158,7 @@
         
         <div class="black-mirror-container" style="margin-top: 20px;">
   <button onclick="toggleBlackMirror()" class="black-btn w3-button w3-black">
-    ⚫ Modo Black Mirror
+    ⚫ <span data-lang="blackMirrorMode">Modo Black Mirror</span>
   </button>
 </div>
 
@@ -155,137 +170,115 @@
 						<div class="w3-twothird">
 
 							<div class="w3-container w3-card w3-white w3-margin-bottom">
-								<h2 class="w3-text-grey w3-padding-16">
-									<i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiência
-									Profissional</h2>
+						<h2 class="w3-text-grey w3-padding-16">
+							<i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span data-lang="experience">Experiência Profissional</span></h2>
 								<div class="w3-container">
-									<h5 class="w3-opacity"><b>Suporte Help Desk | www.servcom.com.br</b></h5>
-									<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2024 - Set 2024</h6>
+									<h5 class="w3-opacity"><b><span data-lang="job1Title">Suporte Help Desk | www.servcom.com.br</span></b></h5>
+									<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="job1Period">Mar 2024 - Set 2024</span></h6>
 									<ul>
-										<li><span>Auxiliar na conferência, configuração e manutenção de backup em nuvem. Auxiliar na conferência, configuração e manutenção de espelhamento em servidores.</span></li>
-										<li><span>Prestar suporte de nível 1 aplicado em demandas de tecnologia.</span></li>
-										<li><span>Auxiliar na configuração e instalação do banco de dados.</span></li>
+										<li><span data-lang="job1Desc1">Auxiliar na conferência, configuração e manutenção de backup em nuvem. Auxiliar na conferência, configuração e manutenção de espelhamento em servidores.</span></li>
+										<li><span data-lang="job1Desc2">Prestar suporte de nível 1 aplicado em demandas de tecnologia.</span></li>
+										<li><span data-lang="job1Desc3">Auxiliar na configuração e instalação do banco de dados.</span></li>
 									</ul>
 									<hr>
 								</div>
 								<div class="w3-container">
-									<h5 class="w3-opacity"><b>Analista de Marketing Digital | Lilipe Festas</b></h5>
-									<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan
-										2023 - Fev 2024</h6>
-									<p>Responsável por planejar, executar e analisar estratégias de marketing em
-										ambientes digitais com habilidades em:
+									<h5 class="w3-opacity"><b><span data-lang="job2Title">Analista de Marketing Digital | Lilipe Festas</span></b></h5>
+									<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="job2Period">Jan 2023 - Fev 2024</span></h6>
+									<p><span data-lang="job2Intro">Responsável por planejar, executar e analisar estratégias de marketing em ambientes digitais com habilidades em:</span>
 										<ul>
-											<li><span>Criação e execução de campanhas</span></li>
-											<li><span>Gerenciamento de redes sociais</span></li>
-											<li><span>Otimização para mecanismos de busca (SEO)</span></li>
-											<li><span>Análise de dados</span></li>
-											<li><span>Criação de conteúdo</span></li>
-											<li><span>E-mail marketing</span></li>
-											<li><span>Gerenciamento de tráfego pago</span></li>
+											<li><span data-lang="job2Skill1">Criação e execução de campanhas</span></li>
+											<li><span data-lang="job2Skill2">Gerenciamento de redes sociais</span></li>
+											<li><span data-lang="job2Skill3">Otimização para mecanismos de busca (SEO)</span></li>
+											<li><span data-lang="job2Skill4">Análise de dados</span></li>
+											<li><span data-lang="job2Skill5">Criação de conteúdo</span></li>
+											<li><span data-lang="job2Skill6">E-mail marketing</span></li>
+											<li><span data-lang="job2Skill7">Gerenciamento de tráfego pago</span></li>
 										</ul>
 									</p>
 									<hr>
 								</div>
 								<div class="w3-container">
-									<h5 class="w3-opacity"><b>Analista de E-commerce | Porão do Alien</b></h5>
-									<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun
-										2017 - Dez 2023</h6>
-									<p>Responsável por otimizar a loja virtual, melhorar a experiência do cliente e
-										impulsionar as vendas com habilidades em:
+									<h5 class="w3-opacity"><b><span data-lang="job3Title">Analista de E-commerce | Porão do Alien</span></b></h5>
+									<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="job3Period">Jun 2017 - Dez 2023</span></h6>
+									<p><span data-lang="job3Intro">Responsável por otimizar a loja virtual, melhorar a experiência do cliente e impulsionar as vendas com habilidades em:</span>
 										<ul>
-											<li><span>Análise de Dados e Otimização</span></li>
-											<li><span>Implementação de Estratégias de Marketing Digital</span></li>
-											<li><span>Gerenciamento da Experiência do Cliente</span></li>
-											<li><span>Monitoramento de Indicadores de Desempenho</span></li>
-											<li><span>Pesquisa de Concorrentes e Tendências de Mercado</span></li>
-											<li><span>Colaboração com Outras Áreas do Negócio</span></li>
+											<li><span data-lang="job3Skill1">Análise de Dados e Otimização</span></li>
+											<li><span data-lang="job3Skill2">Implementação de Estratégias de Marketing Digital</span></li>
+											<li><span data-lang="job3Skill3">Gerenciamento da Experiência do Cliente</span></li>
+											<li><span data-lang="job3Skill4">Monitoramento de Indicadores de Desempenho</span></li>
+											<li><span data-lang="job3Skill5">Pesquisa de Concorrentes e Tendências de Mercado</span></li>
+											<li><span data-lang="job3Skill6">Colaboração com Outras Áreas do Negócio</span></li>
 										</ul>
 									</p><br>
         </div>
-								</div>
-
 								<div class="w3-container w3-card w3-white">
 									<h2 class="w3-text-grey w3-padding-16">
-										<i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação
+										<i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span data-lang="education">Educação</span>
 									</h2>
 									<div class="w3-container">
-										<h5 class="w3-opacity"><b>Defesa Cibernética | Uniasselvi
-          </b></h5>
-										<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2º
-											Semestre</h6>
+										<h5 class="w3-opacity"><b><span data-lang="edu1Title">Defesa Cibernética | Uniasselvi</span></b></h5>
+										<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="edu1Period">2º Semestre</span></h6>
 										<p>
 											<ul class="w3-ul">
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Pensamento
-													Computacional</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Introdução
-													à Segurança da Informação</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Fundamentos
-													de Redes de Computadores</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Arquitetura
-													de Computadores</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Paradigmas
-													de Linguagens de Programação em Python</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Segurança
-													em Ambientes Inteligentes e Internet of Things</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Inteligência
-													de Ameaças Cibernéticas</li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course1">Pensamento Computacional</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course2">Introdução à Segurança da Informação</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course3">Fundamentos de Redes de Computadores</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course4">Arquitetura de Computadores</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course5">Paradigmas de Linguagens de Programação em Python</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course6">Segurança em Ambientes Inteligentes e Internet of Things</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu1Course7">Inteligência de Ameaças Cibernéticas</span></li>
 											</ul>
 										</p>
 										<hr>
 									</div>
 									<div class="w3-container">
 										<h5 class="w3-opacity">
-											<b>Analista de Operações de Segurança | Microsoft Learn</b></h5>
+											<b><span data-lang="edu2Title">Analista de Operações de Segurança | Microsoft Learn</span></b></h5>
 										<h6 class="w3-text-teal">
-											<i class="fa fa-calendar fa-fw w3-margin-right"></i>Cursando</h6>
+											<i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="edu2Period">Cursando</span></h6>
 										<p>
 											<ul class="w3-ul">
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>SC-200:
-													Mitigar ameaças usando o Microsoft Defender XDR</li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu2Course1">SC-200: Mitigar ameaças usando o Microsoft Defender XDR</span></li>
 											</ul>
 										</p>
 										<hr>
 									</div>
 									<div class="w3-container">
 										<h5 class="w3-opacity">
-											<b>Analista de Cibersegurança Júnior | Cisco Networking Academy</b></h5>
+											<b><span data-lang="edu3Title">Analista de Cibersegurança Júnior | Cisco Networking Academy</span></b></h5>
 										<h6 class="w3-text-teal">
-											<i class="fa fa-calendar fa-fw w3-margin-right"></i>Cursando</h6>
+											<i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="edu3Period">Cursando</span></h6>
 										<p>
 											<ul class="w3-ul">
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Especialista
-													em recursos</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Defesa de
-													Rede</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Salvaguardas
-													do sistema</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Análise
-													de ameaças</li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu3Course1">Especialista em recursos</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu3Course2">Defesa de Rede</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu3Course3">Salvaguardas do sistema</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu3Course4">Análise de ameaças</span></li>
 											</ul>
 										</p>
 										<hr>
-      </div>
-	                                     <div class="w3-container">
+									</div>
+									<div class="w3-container">
 										<h5 class="w3-opacity">
-											<b>Bootcamp Potência Tech iFood – Programação do Zero | DIO</b></h5>
+											<b><span data-lang="edu4Title">Bootcamp Potência Tech iFood – Programação do Zero | DIO</span></b></h5>
 										<h6 class="w3-text-teal">
-											<i class="fa fa-calendar fa-fw w3-margin-right"></i>Cursando</h6>
+											<i class="fa fa-calendar fa-fw w3-margin-right"></i><span data-lang="edu4Period">Cursando</span></h6>
 										<p>
 											<ul class="w3-ul">
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Testes de Software</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Trabalhando com Testes Automatizados</li>
-												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i>Testes de Software com Python</li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu4Course1">Testes de Software</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu4Course2">Trabalhando com Testes Automatizados</span></li>
+												<li><i class="fa fa-circle-o w3-margin-right fa-half-size"></i><span data-lang="edu4Course3">Testes de Software com Python</span></li>
 											</ul>
 										</p>
-      </div>
-	  
 									</div>
-</section>
+								</div>
+
 <!-- Projetos em Destaque -->
 
 <div class="w3-container w3-card w3-white w3-margin-top" id="projetos">
   <h2 class="w3-text-grey w3-padding-16">
-    <i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos em Destaque
+    <i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><span data-lang="projects">Projetos em Destaque</span>
   </h2>
   
   <div class="w3-row-padding">
@@ -295,9 +288,9 @@
       <div class="w3-card-4">
         <img src="https://raw.githubusercontent.com/eusoumanoelnetto/ia-curriculos/main/preview.jpg" style="width:100%" alt="Gerador de Currículos com IA">
         <div class="w3-container">
-          <h5><b>Gerador de Currículos com IA</b></h5>
-          <p>Gera currículos PDF com inteligência artificial com base nos dados do usuário.</p>
-          <a href="https://github.com/eusoumanoelnetto/ia-curriculos" target="_blank" class="w3-button w3-teal w3-margin-bottom">Ver Projeto</a>
+          <h5><b><span data-lang="project1Title">Gerador de Currículos com IA</span></b></h5>
+          <p><span data-lang="project1Desc">Gera currículos PDF com inteligência artificial com base nos dados do usuário.</span></p>
+          <a href="https://github.com/eusoumanoelnetto/ia-curriculos" target="_blank" class="w3-button w3-teal w3-margin-bottom"><span data-lang="viewProject">Ver Projeto</span></a>
         </div>
       </div>
     </div>
@@ -307,9 +300,9 @@
       <div class="w3-card-4">
         <img src="https://raw.githubusercontent.com/eusoumanoelnetto/insta_terminal/main/assets/banner.png" style="width:100%" alt="Insta Terminal">
         <div class="w3-container">
-          <h5><b>Insta Terminal</b></h5>
-          <p>🧠 Ferramenta de Consulta de Perfis do Instagram via Terminal — Estilo Hacker Black Mirror</p>
-          <a href="https://github.com/eusoumanoelnetto/insta_terminal" target="_blank" class="w3-button w3-teal w3-margin-bottom">Ver Projeto</a>
+          <h5><b><span data-lang="project2Title">Insta Terminal</span></b></h5>
+          <p><span data-lang="project2Desc">🧠 Ferramenta de Consulta de Perfis do Instagram via Terminal — Estilo Hacker Black Mirror</span></p>
+          <a href="https://github.com/eusoumanoelnetto/insta_terminal" target="_blank" class="w3-button w3-teal w3-margin-bottom"><span data-lang="viewProject">Ver Projeto</span></a>
         </div>
       </div>
     </div>
@@ -319,9 +312,9 @@
       <div class="w3-card-4">
         <img src="https://raw.githubusercontent.com/eusoumanoelnetto/eusoumanoelnetto.github.io/main/preview.jpg" style="width:100%" alt="Portfólio">
         <div class="w3-container">
-          <h5><b>Portfólio Pessoal com HTML</b></h5>
-          <p>Este site mesmo! Simples, responsivo e elegante feito com HTML, CSS e W3.CSS.</p>
-          <a href="https://eusoumanoelnetto.github.io/" target="_blank" class="w3-button w3-teal w3-margin-bottom">Ver Projeto</a>
+          <h5><b><span data-lang="project3Title">Portfólio Pessoal com HTML</span></b></h5>
+          <p><span data-lang="project3Desc">Este site mesmo! Simples, responsivo e elegante feito com HTML, CSS e W3.CSS.</span></p>
+          <a href="https://eusoumanoelnetto.github.io/" target="_blank" class="w3-button w3-teal w3-margin-bottom"><span data-lang="viewProject">Ver Projeto</span></a>
         </div>
       </div>
     </div>
@@ -344,7 +337,7 @@
 						</div>
 
 						<footer class="w3-container w3-teal w3-center w3-margin-top">
-							<p>Minhas mídias sociais.</p>
+							<p><span data-lang="socialMedia">Minhas mídias sociais.</span></p>
 
 
 							<!-- <i class="fa fa-linkedin-square  w3-xxlarge w3-margin-right w3-hover-opacity"></i>-->
@@ -387,6 +380,141 @@
   toggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('black-mirror');
   });
+</script>
+
+<!-- Language Translation Script -->
+<script>
+const translations = {
+  pt: {
+    objective: "Atuar como Desenvolvedor Full Stack, QA ou Agente de IA, aplicando tecnologia e testes para criar soluções eficientes e inteligentes.",
+    role: "IA Agent | Software Engineering Pro | Cybersecurity Student",
+    hardSkills: "Hard Skills",
+    softSkills: "Soft Skills",
+    skill1: "Pensamento Crítico",
+    skill2: "Adaptabilidade",
+    skill3: "Resiliência",
+    skill4: "Comunicação Eficaz",
+    skill5: "Aprendizagem Ativa",
+    skill6: "Autonomia",
+    skill7: "Iniciativa",
+    skill8: "Gestão de projetos",
+    skill9: "Resolução de problemas",
+    skill10: "Liderança",
+    skill11: "Trabalho em equipe",
+    skill12: "Docência",
+    languages: "Idiomas",
+    langPT: "Português - Nativo",
+    langES: "Espanhol - Básico",
+    langEN: "Inglês - Técnico",
+    certificates: "Certificados",
+    seeMore: "VER MAIS",
+    blackMirrorMode: "Modo Black Mirror",
+    experience: "Experiência Profissional",
+    education: "Educação",
+    projects: "Projetos em Destaque",
+    project1Title: "Gerador de Currículos com IA",
+    project1Desc: "Gera currículos PDF com inteligência artificial com base nos dados do usuário.",
+    project2Title: "Insta Terminal",
+    project2Desc: "🧠 Ferramenta de Consulta de Perfis do Instagram via Terminal — Estilo Hacker Black Mirror",
+    project3Title: "Portfólio Pessoal com HTML",
+    project3Desc: "Este site mesmo! Simples, responsivo e elegante feito com HTML, CSS e W3.CSS.",
+    viewProject: "Ver Projeto",
+    socialMedia: "Minhas mídias sociais."
+  },
+  en: {
+    objective: "Work as a Full Stack Developer, QA, or AI Agent, applying technology and testing to create efficient and intelligent solutions.",
+    role: "AI Agent | Software Engineering Pro | Cybersecurity Student",
+    hardSkills: "Hard Skills",
+    softSkills: "Soft Skills",
+    skill1: "Critical Thinking",
+    skill2: "Adaptability",
+    skill3: "Resilience",
+    skill4: "Effective Communication",
+    skill5: "Active Learning",
+    skill6: "Autonomy",
+    skill7: "Initiative",
+    skill8: "Project Management",
+    skill9: "Problem Solving",
+    skill10: "Leadership",
+    skill11: "Teamwork",
+    skill12: "Teaching",
+    languages: "Languages",
+    langPT: "Portuguese - Native",
+    langES: "Spanish - Basic",
+    langEN: "English - Technical",
+    certificates: "Certificates",
+    seeMore: "SEE MORE",
+    blackMirrorMode: "Black Mirror Mode",
+    experience: "Professional Experience",
+    education: "Education",
+    projects: "Featured Projects",
+    project1Title: "AI Resume Generator",
+    project1Desc: "Generates PDF resumes with artificial intelligence based on user data.",
+    project2Title: "Insta Terminal",
+    project2Desc: "🧠 Instagram Profile Query Tool via Terminal — Black Mirror Hacker Style",
+    project3Title: "Personal Portfolio with HTML",
+    project3Desc: "This very site! Simple, responsive and elegant made with HTML, CSS and W3.CSS.",
+    viewProject: "View Project",
+    socialMedia: "My social media."
+  },
+  es: {
+    objective: "Actuar como Desarrollador Full Stack, QA o Agente de IA, aplicando tecnología y pruebas para crear soluciones eficientes e inteligentes.",
+    role: "Agente IA | Ingeniero de Software Pro | Estudiante de Ciberseguridad",
+    hardSkills: "Habilidades Técnicas",
+    softSkills: "Habilidades Blandas",
+    skill1: "Pensamiento Crítico",
+    skill2: "Adaptabilidad",
+    skill3: "Resiliencia",
+    skill4: "Comunicación Efectiva",
+    skill5: "Aprendizaje Activo",
+    skill6: "Autonomía",
+    skill7: "Iniciativa",
+    skill8: "Gestión de proyectos",
+    skill9: "Resolución de problemas",
+    skill10: "Liderazgo",
+    skill11: "Trabajo en equipo",
+    skill12: "Docencia",
+    languages: "Idiomas",
+    langPT: "Portugués - Nativo",
+    langES: "Español - Básico",
+    langEN: "Inglés - Técnico",
+    certificates: "Certificados",
+    seeMore: "VER MÁS",
+    blackMirrorMode: "Modo Black Mirror",
+    experience: "Experiencia Profesional",
+    education: "Educación",
+    projects: "Proyectos Destacados",
+    project1Title: "Generador de Currículos con IA",
+    project1Desc: "Genera currículos PDF con inteligencia artificial basándose en los datos del usuario.",
+    project2Title: "Insta Terminal",
+    project2Desc: "🧠 Herramienta de Consulta de Perfiles de Instagram vía Terminal — Estilo Hacker Black Mirror",
+    project3Title: "Portafolio Personal con HTML",
+    project3Desc: "¡Este mismo sitio! Simple, responsivo y elegante hecho con HTML, CSS y W3.CSS.",
+    viewProject: "Ver Proyecto",
+    socialMedia: "Mis redes sociales."
+  }
+};
+
+function changeLanguage(lang) {
+  const elements = document.querySelectorAll('[data-lang]');
+  elements.forEach(element => {
+    const key = element.getAttribute('data-lang');
+    if (translations[lang] && translations[lang][key]) {
+      element.textContent = translations[lang][key];
+    }
+  });
+  
+  // Salvar preferência no localStorage
+  localStorage.setItem('preferredLanguage', lang);
+}
+
+// Carregar idioma preferido ao carregar a página
+window.addEventListener('DOMContentLoaded', () => {
+  const savedLang = localStorage.getItem('preferredLanguage') || 'pt';
+  if (savedLang !== 'pt') {
+    changeLanguage(savedLang);
+  }
+});
 </script>
 
 </body>
