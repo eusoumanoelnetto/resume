@@ -19,13 +19,13 @@
 
 ## 📊 GitHub Stats
 
-![Manoel Neto's GitHub stats](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula&count_private=true)
+[![Manoel Neto's GitHub stats](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula&count_private=true)](https://github.com/eusoumanoelnetto)
 
 ---
 
 ## 🚀 Top Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact&count_private=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact&count_private=true)](https://github.com/eusoumanoelnetto)
 
 ---
 
@@ -87,13 +87,13 @@
 
 ## 📊 Estatísticas no GitHub
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula&count_private=true)
+[![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=eusoumanoelnetto&show_icons=true&theme=dracula&count_private=true)](https://github.com/eusoumanoelnetto)
 
 ---
 
 ## 🚀 Linguagens Mais Usadas
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact&count_private=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eusoumanoelnetto&layout=compact&count_private=true)](https://github.com/eusoumanoelnetto)
 
 ---
 
