@@ -16,10 +16,56 @@
   font-weight: bold;
 }
 
-/* Row Padding Override */
-.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
-    padding: 0 0px;
-    margin-top: 3%;
+/* Row Padding Override - Melhorado */
+.w3-row-padding {
+    padding: 0 12px;
+    margin-top: 0;
+}
+
+.w3-row-padding > .w3-third,
+.w3-row-padding > .w3-twothird,
+.w3-row-padding > .w3-half,
+.w3-row-padding > .w3-quarter,
+.w3-row-padding > .w3-col {
+    padding: 12px;
+}
+
+/* Card Spacing */
+.w3-card, .w3-card-4 {
+    margin-bottom: 20px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.w3-card:hover, .w3-card-4:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Container Padding */
+.w3-container {
+    padding: 16px !important;
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .w3-col.m4 {
+        width: 50% !important;
+    }
+    .w3-col.m8 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .w3-col.m4,
+    .w3-col.m8 {
+        width: 100% !important;
+    }
+    .w3-row-padding {
+        padding: 0 8px;
+    }
+    .w3-row-padding > * {
+        padding: 8px !important;
+    }
 }
 
 .black-btn {
