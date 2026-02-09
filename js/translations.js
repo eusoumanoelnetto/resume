@@ -1,10 +1,46 @@
 // Sistema de Traduções Multilíngue
 const translations = {
   pt: {
-    objective: "Atuar como Desenvolvedor Full Stack, QA ou Agente de IA, aplicando tecnologia e testes para criar soluções eficientes e inteligentes.",
-    role: "IA Agent | Software Engineering Pro | Cybersecurity Student",
+    objective: "Profissional de tecnologia com atuação em suporte técnico, qualidade de software e análise de dados, com experiência em ambientes de infraestrutura, cloud básica, testes manuais e automatizados, automação com Python e suporte a processos de negócio orientados a dados.",
+    role: "Analista de Tecnologia Jr | QA • Suporte • DevOps Jr • Dados | Python • Cloud • Qualidade de Software",
     hardSkills: "Hard Skills",
     hardSkillsTitle: "Habilidades Técnicas",
+    skillsAtsTitle: "Competências Técnicas (SEM BARRA, EM BLOCOS)",
+    skillsAts1: "IA Generativa",
+    skillsAts2: "Python",
+    skillsAts3: "Git",
+    skillsAts4: "GitHub",
+    skillsAts5: "HTML",
+    skillsAts6: "CSS",
+    skillsAts7: "JavaScript",
+    skillsAts8: "Flutter",
+    skillsAts9: "Docker",
+    skillsAts10: "Testes Manuais",
+    skillsAts11: "Testes Automatizados",
+    skillsAts12: "Qualidade de Software",
+    skillsAts13: "QA",
+    skillsAts14: "Help Desk N1",
+    skillsAts15: "Suporte ao Usuário",
+    skillsAts16: "Infraestrutura Básica",
+    skillsAts17: "Backup em Nuvem",
+    skillsAts18: "Cloud Computing",
+    skillsAts19: "Azure (básico)",
+    skillsAts20: "AWS (básico)",
+    skillsAts21: "Automação de Tarefas",
+    skillsAts22: "CI/CD",
+    skillsAts23: "Análise de Dados",
+    skillsAts24: "KPIs",
+    skillsAts25: "Visualização de Dados",
+    skillsAts26: "Excel Analítico",
+    techCompetenciesTitle: "Competências Técnicas",
+    techQAHeading: "🔹 Qualidade de Software / QA",
+    techQAItems: "Testes Manuais • Testes Automatizados • Elaboração de Casos de Teste • Validação de Software • Python aplicado a testes • Garantia da Qualidade (QA)",
+    techSupportHeading: "🔹 Suporte Técnico & Infraestrutura",
+    techSupportItems: "Help Desk N1 • Suporte ao Usuário • Windows e Office • Backup em Nuvem • Infraestrutura Básica • Apoio a Ambientes de Servidores",
+    techDevOpsHeading: "🔹 DevOps / Cloud (nível júnior)",
+    techDevOpsItems: "Python • Git • Cloud Computing (Azure e AWS – básico) • Automação de Tarefas • Conceitos de CI/CD • Sustentação de Ambientes",
+    techDataHeading: "🔹 Dados / BI (nível júnior)",
+    techDataItems: "Análise de Dados • Indicadores e KPIs • Visualização de Dados • Excel Analítico • Apoio à Tomada de Decisão • Dados Aplicados a Negócios",
     softSkills: "Soft Skills",
     softSkillsTitle: "Habilidades Blandas",
     skill1: "Pensamento Crítico",
@@ -86,10 +122,46 @@ const translations = {
     edu4Course3: "Testes de Software com Python"
   },
   en: {
-    objective: "Work as a Full Stack Developer, QA, or AI Agent, applying technology and testing to create efficient and intelligent solutions.",
-    role: "AI Agent | Software Engineering Pro | Cybersecurity Student",
+    objective: "Technology professional with experience in technical support, software quality and data analysis, with background in infrastructure environments, basic cloud, manual and automated testing, Python automation, and support for data-driven business processes.",
+    role: "Junior Technology Analyst | QA • Support • Junior DevOps • Data | Python • Cloud • Software Quality",
     hardSkills: "Hard Skills",
     hardSkillsTitle: "Technical Skills",
+    skillsAtsTitle: "Technical Competencies (NO BARS, IN BLOCKS)",
+    skillsAts1: "Generative AI",
+    skillsAts2: "Python",
+    skillsAts3: "Git",
+    skillsAts4: "GitHub",
+    skillsAts5: "HTML",
+    skillsAts6: "CSS",
+    skillsAts7: "JavaScript",
+    skillsAts8: "Flutter",
+    skillsAts9: "Docker",
+    skillsAts10: "Manual Testing",
+    skillsAts11: "Automated Testing",
+    skillsAts12: "Software Quality",
+    skillsAts13: "QA",
+    skillsAts14: "Help Desk L1",
+    skillsAts15: "User Support",
+    skillsAts16: "Basic Infrastructure",
+    skillsAts17: "Cloud Backup",
+    skillsAts18: "Cloud Computing",
+    skillsAts19: "Azure (basic)",
+    skillsAts20: "AWS (basic)",
+    skillsAts21: "Task Automation",
+    skillsAts22: "CI/CD",
+    skillsAts23: "Data Analysis",
+    skillsAts24: "KPIs",
+    skillsAts25: "Data Visualization",
+    skillsAts26: "Analytical Excel",
+    techCompetenciesTitle: "Technical Competencies",
+    techQAHeading: "🔹 Software Quality / QA",
+    techQAItems: "Manual Testing • Automated Testing • Test Case Design • Software Validation • Python for Testing • Quality Assurance (QA)",
+    techSupportHeading: "🔹 Technical Support & Infrastructure",
+    techSupportItems: "Help Desk L1 • User Support • Windows and Office • Cloud Backup • Basic Infrastructure • Support for Server Environments",
+    techDevOpsHeading: "🔹 DevOps / Cloud (junior level)",
+    techDevOpsItems: "Python • Git • Cloud Computing (Azure and AWS – basic) • Task Automation • CI/CD Concepts • Environment Sustainment",
+    techDataHeading: "🔹 Data / BI (junior level)",
+    techDataItems: "Data Analysis • Indicators and KPIs • Data Visualization • Analytical Excel • Decision Support • Business-Oriented Data",
     softSkills: "Soft Skills",
     softSkillsTitle: "Soft Skills",
     skill1: "Critical Thinking",
@@ -171,10 +243,46 @@ const translations = {
     edu4Course3: "Software Testing with Python"
   },
   es: {
-    objective: "Actuar como Desarrollador Full Stack, QA o Agente de IA, aplicando tecnología y pruebas para crear soluciones eficientes e inteligentes.",
-    role: "Agente IA | Ingeniero de Software Pro | Estudiante de Ciberseguridad",
+    objective: "Profesional de tecnología con actuación en soporte técnico, calidad de software y análisis de datos, con experiencia en entornos de infraestructura, cloud básico, pruebas manuales y automatizadas, automatización con Python y soporte a procesos de negocio orientados a datos.",
+    role: "Analista de Tecnología Jr | QA • Soporte • DevOps Jr • Datos | Python • Cloud • Calidad de Software",
     hardSkills: "Habilidades Técnicas",
     hardSkillsTitle: "Habilidades Técnicas",
+    skillsAtsTitle: "Competencias Técnicas (SIN BARRA, EN BLOQUES)",
+    skillsAts1: "IA Generativa",
+    skillsAts2: "Python",
+    skillsAts3: "Git",
+    skillsAts4: "GitHub",
+    skillsAts5: "HTML",
+    skillsAts6: "CSS",
+    skillsAts7: "JavaScript",
+    skillsAts8: "Flutter",
+    skillsAts9: "Docker",
+    skillsAts10: "Pruebas Manuales",
+    skillsAts11: "Pruebas Automatizadas",
+    skillsAts12: "Calidad de Software",
+    skillsAts13: "QA",
+    skillsAts14: "Help Desk N1",
+    skillsAts15: "Soporte al Usuario",
+    skillsAts16: "Infraestructura Básica",
+    skillsAts17: "Backup en la Nube",
+    skillsAts18: "Cloud Computing",
+    skillsAts19: "Azure (básico)",
+    skillsAts20: "AWS (básico)",
+    skillsAts21: "Automatización de Tareas",
+    skillsAts22: "CI/CD",
+    skillsAts23: "Análisis de Datos",
+    skillsAts24: "KPIs",
+    skillsAts25: "Visualización de Datos",
+    skillsAts26: "Excel Analítico",
+    techCompetenciesTitle: "Competencias Técnicas",
+    techQAHeading: "🔹 Calidad de Software / QA",
+    techQAItems: "Pruebas Manuales • Pruebas Automatizadas • Elaboración de Casos de Prueba • Validación de Software • Python aplicado a pruebas • Garantía de Calidad (QA)",
+    techSupportHeading: "🔹 Soporte Técnico e Infraestructura",
+    techSupportItems: "Help Desk N1 • Soporte al Usuario • Windows y Office • Backup en la Nube • Infraestructura Básica • Apoyo a Entornos de Servidores",
+    techDevOpsHeading: "🔹 DevOps / Cloud (nivel junior)",
+    techDevOpsItems: "Python • Git • Cloud Computing (Azure y AWS – básico) • Automatización de Tareas • Conceptos de CI/CD • Sostenimiento de Entornos",
+    techDataHeading: "🔹 Datos / BI (nivel junior)",
+    techDataItems: "Análisis de Datos • Indicadores y KPIs • Visualización de Datos • Excel Analítico • Apoyo a la Toma de Decisiones • Datos Aplicados al Negocio",
     softSkills: "Habilidades Blandas",
     softSkillsTitle: "Habilidades Blandas",
     skill1: "Pensamiento Crítico",
@@ -258,21 +366,22 @@ const translations = {
 };
 
 function changeLanguage(lang) {
-  console.log('Mudando idioma para:', lang);
+  const normalizedLang = (lang || 'pt').toLowerCase();
+  console.log('Mudando idioma para:', normalizedLang);
   const elements = document.querySelectorAll('[data-lang]');
   console.log('Elementos encontrados:', elements.length);
   
   elements.forEach(element => {
-    const key = element.getAttribute('data-lang');
-    if (translations[lang] && translations[lang][key]) {
-      element.textContent = translations[lang][key];
+    const key = (element.getAttribute('data-lang') || '').trim();
+    if (key && translations[normalizedLang] && translations[normalizedLang][key]) {
+      element.textContent = translations[normalizedLang][key];
     } else {
-      console.warn('Tradução não encontrada para:', key, 'no idioma:', lang);
+      console.warn('Tradução não encontrada para:', key, 'no idioma:', normalizedLang);
     }
   });
   
   // Salvar preferência no localStorage
-  localStorage.setItem('preferredLanguage', lang);
+  localStorage.setItem('preferredLanguage', normalizedLang);
   
   // Remover classe ativa de todos os botões
   document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -280,12 +389,12 @@ function changeLanguage(lang) {
   });
   
   // Adicionar classe ativa apenas ao botão selecionado
-  const activeBtn = document.querySelector(`[onclick="changeLanguage('${lang}')"]`);
+  const activeBtn = document.querySelector(`[onclick="changeLanguage('${normalizedLang}')"]`);
   if (activeBtn) {
     activeBtn.classList.add('active');
   }
-  
-  console.log('Idioma alterado com sucesso para:', lang);
+
+  console.log('Idioma alterado com sucesso para:', normalizedLang);
 }
 
 // Carregar idioma preferido ao carregar a página

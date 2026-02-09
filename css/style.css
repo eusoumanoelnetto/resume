@@ -147,6 +147,75 @@ body.black-mirror-mode .w3-light-grey {
   cursor: pointer;
 }
 
+/* ATS TEXT — escondido no site */
+.skills-ats {
+  display: none;
+}
+
+
+.skills-visual .skill-bar {
+  height: 24px;
+  width: 100%;
+  border-radius: 999px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+
+.skills-visual .skill-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.technical-competencies {
+  margin-top: 16px;
+}
+
+.technical-competencies .tech-heading {
+  font-weight: 600;
+  margin: 12px 0 4px;
+  color: #009688;
+}
+
+.technical-competencies .tech-items {
+  margin: 0 0 12px;
+  color: #555;
+}
+
+.skills-ats-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.skills-ats-list li {
+  display: inline-block;
+  margin: 4px 6px 0 0;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 10pt;
+  line-height: 1.2;
+}
+
+/* PDF / PRINT — ATS visível */
+@media print {
+  .skills-ats {
+    display: block;
+    font-size: 10pt;
+    margin-top: 10px;
+    color: #000;
+    line-height: 1.4;
+  }
+
+  .skills-ats-title {
+    margin-top: 8px;
+  }
+}
+
 /* Animação pulse neon */
 @keyframes pulseNeon {
   0%, 100% {

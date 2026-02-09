@@ -8,9 +8,9 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/translations.js"></script>
-	<script src="js/verify-translations.js" defer></script>
+	<link rel="stylesheet" href="css/style.css?v=20260209d">
+	<script src="js/translations.js?v=20260209a"></script>
+	<script src="js/verify-translations.js?v=20260209a" defer></script>
 	<style>
 		html, body, h1, h2, h3, h4, h5, h6 {
 			font-family: "Roboto", sans-serif
@@ -73,30 +73,94 @@
 						<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(21) 99141-4276</p>
 						<hr>
 
-						<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i><span data-lang="hardSkills">Hard Skills</span></b></p>
-						<p>IA Generativa</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+						<p class="w3-large">
+							<b>
+								<i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>
+								<span data-lang="hardSkills">Hard Skills</span>
+							</b>
+						</p>
+
+						<div class="skills-visual">
+							<p>IA Generativa</p>
+							<div class="w3-light-grey w3-round-xlarge skill-bar">
+								<div class="w3-teal skill-bar-fill" style="width:65%" aria-label="65%"></div>
+							</div>
+
+							<p>Python</p>
+							<div class="w3-light-grey w3-round-xlarge skill-bar">
+								<div class="w3-teal skill-bar-fill" style="width:60%" aria-label="60%"></div>
+							</div>
+
+							<p>Git / GitHub</p>
+							<div class="w3-light-grey w3-round-xlarge skill-bar">
+								<div class="w3-teal skill-bar-fill" style="width:55%" aria-label="55%"></div>
+							</div>
+
+							<p>HTML / CSS / JavaScript</p>
+							<div class="w3-light-grey w3-round-xlarge skill-bar">
+								<div class="w3-teal skill-bar-fill" style="width:50%" aria-label="50%"></div>
+							</div>
+
+							<p>Flutter</p>
+							<div class="w3-light-grey w3-round-xlarge skill-bar">
+								<div class="w3-teal skill-bar-fill" style="width:40%" aria-label="40%"></div>
+							</div>
+
+							<p>Docker</p>
+							<div class="w3-light-grey w3-round-xlarge skill-bar">
+								<div class="w3-teal skill-bar-fill" style="width:35%" aria-label="35%"></div>
+							</div>
 						</div>
-						<p>Python</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
+
+						<div class="technical-competencies">
+							<p class="w3-large">
+								<b>
+									<i class="fa fa-cogs fa-fw w3-margin-right w3-text-teal"></i>
+									<span data-lang="techCompetenciesTitle">Competências Técnicas</span>
+								</b>
+							</p>
+							<p class="tech-heading" data-lang="techQAHeading">🔹 Qualidade de Software / QA</p>
+							<p class="tech-items" data-lang="techQAItems">Testes Manuais • Testes Automatizados • Elaboração de Casos de Teste • Validação de Software • Python aplicado a testes • Garantia da Qualidade (QA)</p>
+							<p class="tech-heading" data-lang="techSupportHeading">🔹 Suporte Técnico &amp; Infraestrutura</p>
+							<p class="tech-items" data-lang="techSupportItems">Help Desk N1 • Suporte ao Usuário • Windows e Office • Backup em Nuvem • Infraestrutura Básica • Apoio a Ambientes de Servidores</p>
+							<p class="tech-heading" data-lang="techDevOpsHeading">🔹 DevOps / Cloud (nível júnior)</p>
+							<p class="tech-items" data-lang="techDevOpsItems">Python • Git • Cloud Computing (Azure e AWS – básico) • Automação de Tarefas • Conceitos de CI/CD • Sustentação de Ambientes</p>
+							<p class="tech-heading" data-lang="techDataHeading">🔹 Dados / BI (nível júnior)</p>
+							<p class="tech-items" data-lang="techDataItems">Análise de Dados • Indicadores e KPIs • Visualização de Dados • Excel Analítico • Apoio à Tomada de Decisão • Dados Aplicados a Negócios</p>
 						</div>
-						<p>Git/GitHub</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-						</div>
-						<p>HTML/CSS/JavaScript</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-						</div>
-						<p>Flutter</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:40%">40%</div>
-						</div>
-						<p>Docker</p>
-						<div class="w3-light-grey w3-round-xlarge w3-small">
-							<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:35%">35%</div>
+
+						<div class="skills-ats">
+							<p class="w3-large skills-ats-title">
+								<b><span data-lang="skillsAtsTitle">Competências Técnicas (SEM BARRA, EM BLOCOS)</span></b>
+							</p>
+							<ul class="skills-ats-list">
+								<li data-lang="skillsAts1">IA Generativa</li>
+								<li data-lang="skillsAts2">Python</li>
+								<li data-lang="skillsAts3">Git</li>
+								<li data-lang="skillsAts4">GitHub</li>
+								<li data-lang="skillsAts5">HTML</li>
+								<li data-lang="skillsAts6">CSS</li>
+								<li data-lang="skillsAts7">JavaScript</li>
+								<li data-lang="skillsAts8">Flutter</li>
+								<li data-lang="skillsAts9">Docker</li>
+								<li data-lang="skillsAts10">Testes Manuais</li>
+								<li data-lang="skillsAts11">Testes Automatizados</li>
+								<li data-lang="skillsAts12">Qualidade de Software</li>
+								<li data-lang="skillsAts13">QA</li>
+								<li data-lang="skillsAts14">Help Desk N1</li>
+								<li data-lang="skillsAts15">Suporte ao Usuário</li>
+								<li data-lang="skillsAts16">Infraestrutura Básica</li>
+								<li data-lang="skillsAts17">Backup em Nuvem</li>
+								<li data-lang="skillsAts18">Cloud Computing</li>
+								<li data-lang="skillsAts19">Azure (básico)</li>
+								<li data-lang="skillsAts20">AWS (básico)</li>
+								<li data-lang="skillsAts21">Automação de Tarefas</li>
+								<li data-lang="skillsAts22">CI/CD</li>
+								<li data-lang="skillsAts23">Análise de Dados</li>
+								<li data-lang="skillsAts24">KPIs</li>
+								<li data-lang="skillsAts25">Visualização de Dados</li>
+								<li data-lang="skillsAts26">Excel Analítico</li>
+							</ul>
 						</div>
 						<br>
 
