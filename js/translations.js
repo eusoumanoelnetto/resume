@@ -1,7 +1,7 @@
 // Sistema de Traduções Multilíngue
 const translations = {
   pt: {
-    objective: "Profissional de tecnologia com atuação em suporte técnico, qualidade de software e análise de dados, com experiência em ambientes de infraestrutura, cloud básica, testes manuais e automatizados, automação com Python e suporte a processos de negócio orientados a dados.",
+    objective: "Profissional de tecnologia com experiência em desenvolvimento Front-End (HTML, CSS e JavaScript) e automação com Python, atuando também em suporte técnico, qualidade de software (QA), análise de dados e infraestrutura de TI, com vivência em ambientes cloud básicos e testes manuais e automatizados.",
     role: "Analista de Tecnologia Jr | QA • Suporte • DevOps Jr • Dados | Python • Cloud • Qualidade de Software",
     hardSkills: "Hard Skills",
     hardSkillsTitle: "Habilidades Técnicas",
@@ -129,7 +129,7 @@ const translations = {
     edu4Course3: "Testes de Software com Python"
   },
   en: {
-    objective: "Technology professional with experience in technical support, software quality and data analysis, with background in infrastructure environments, basic cloud, manual and automated testing, Python automation, and support for data-driven business processes.",
+    objective: "Technology professional with experience in Front-End development (HTML, CSS, and JavaScript) and Python automation, also working with IT support, software quality assurance (QA), data analysis, and IT infrastructure, with experience in basic cloud environments and both manual and automated testing.",
     role: "Junior Technology Analyst | QA • Support • Junior DevOps • Data | Python • Cloud • Software Quality",
     hardSkills: "Hard Skills",
     hardSkillsTitle: "Technical Skills",
@@ -257,7 +257,7 @@ const translations = {
     edu4Course3: "Software Testing with Python"
   },
   es: {
-    objective: "Profesional de tecnología con actuación en soporte técnico, calidad de software y análisis de datos, con experiencia en entornos de infraestructura, cloud básico, pruebas manuales y automatizadas, automatización con Python y soporte a procesos de negocio orientados a datos.",
+    objective: "Profesional de tecnología con experiencia en desarrollo Front-End (HTML, CSS y JavaScript) y automatización con Python, además de actuación en soporte técnico, aseguramiento de calidad de software (QA), análisis de datos e infraestructura de TI, con experiencia en entornos cloud básicos y pruebas manuales y automatizadas.",
     role: "Analista de Tecnología Jr | QA • Soporte • DevOps Jr • Datos | Python • Cloud • Calidad de Software",
     hardSkills: "Habilidades Técnicas",
     hardSkillsTitle: "Habilidades Técnicas",
