@@ -6,7 +6,7 @@
 
 ## 🏢 Professional Background
 
-- 🚀 **Help Desk Support** at Servcom  
+- 🚀 **IT Support Technician / ERP Systems** at Sonho do Artesão *(Sep 2024 – Present)*  
 - 🎓 **Bachelor's in Cybersecurity** from [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
 
 ---
@@ -74,7 +74,7 @@
 
 ## 🏢 Atuação Profissional
 
-- 🚀 **Suporte Help Desk** na Servcom  
+- 🚀 **Técnico de Suporte em TI / Sistemas ERP** na Sonho do Artesão *(Set 2024 – Atual)*  
 - 🎓 **Graduação em Segurança Cibernética** no [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
 
 ---
