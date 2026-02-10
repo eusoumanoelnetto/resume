@@ -415,6 +415,10 @@ function changeLanguage(lang) {
     activeBtn.classList.add('active');
   }
 
+  if (typeof window.updateCvDownload === 'function') {
+    window.updateCvDownload(normalizedLang);
+  }
+
   console.log('Idioma alterado com sucesso para:', normalizedLang);
 }
 
@@ -434,6 +438,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const ptBtn = document.querySelector(`[onclick="changeLanguage('pt')"]`);
     if (ptBtn) {
       ptBtn.classList.add('active');
+    }
+    if (typeof window.updateCvDownload === 'function') {
+      window.updateCvDownload('pt');
     }
   }
 });

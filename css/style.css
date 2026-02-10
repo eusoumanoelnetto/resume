@@ -82,6 +82,14 @@
   box-shadow: 0 0 10px #0ff;
 }
 
+.btn-download {
+  display: block;
+  margin-top: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
 
 
 body.black-mirror-mode {
@@ -115,6 +123,12 @@ body.black-mirror-mode span {
 body.black-mirror-mode .w3-teal {
   background-color: #0ff !important;
   color: #000 !important;
+}
+
+body.black-mirror-mode .btn-download {
+  background-color: #0ff !important;
+  color: #000 !important;
+  box-shadow: 0 0 10px #0ff;
 }
 
 body.black-mirror-mode a {
