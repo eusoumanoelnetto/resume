@@ -215,18 +215,14 @@ body.black-mirror-mode .w3-light-grey {
   line-height: 1.2;
 }
 
-/* PDF / PRINT — ATS visível */
+/* Print adjustments */
 @media print {
-  .skills-ats {
-    display: block;
-    font-size: 10pt;
-    margin-top: 10px;
-    color: #000;
-    line-height: 1.4;
-  }
-
-  .skills-ats-title {
-    margin-top: 8px;
+  .skills-ats-only,
+  .btn-download,
+  .lang-btn,
+  .black-mirror-container,
+  #toggleBlackMirror {
+    display: none !important;
   }
 }
 
