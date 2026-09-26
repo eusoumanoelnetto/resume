@@ -343,6 +343,12 @@ body.black-mirror-mode .w3-light-grey {
     padding: 0 4px !important;
   }
 
+  #projetos .w3-card-4,
+  .project-card {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
   /* Clear floats after grid */
   .w3-row-padding::after,
   .w3-row::after {
@@ -398,5 +404,72 @@ body.black-mirror-mode .w3-light-grey {
     transform: none !important;
     transition: none !important;
   }
+  #projetos .w3-card-4,
+  #projetos .w3-card-4:hover,
+  .project-card,
+  .project-card:hover,
+  #projetos .w3-card-4 img,
+  #projetos .w3-card-4:hover img,
+  .project-card img,
+  .project-card:hover img {
+    transform: none !important;
+    transition: none !important;
+  }
 }
+
+/* ==========================================================================
+   Project Cards Interactive Scale-Up & Hover Animations
+   ========================================================================== */
+#projetos .w3-card-4,
+.project-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+              box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform, box-shadow;
+}
+
+#projetos .w3-card-4:hover,
+.project-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.10);
+  z-index: 5;
+}
+
+#projetos .w3-card-4 .w3-container,
+.project-card .w3-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+#projetos .w3-card-4 .w3-container p,
+.project-card .w3-container p {
+  flex-grow: 1;
+}
+
+#projetos .w3-card-4 img,
+.project-card img {
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+#projetos .w3-card-4:hover img,
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Black Mirror mode interactive hover effect */
+body.black-mirror-mode #projetos .w3-card-4:hover,
+html.black-mirror-mode #projetos .w3-card-4:hover,
+body.black-mirror-mode .project-card:hover,
+html.black-mirror-mode .project-card:hover {
+  box-shadow: 0 0 24px rgba(0, 255, 234, 0.5), 0 10px 24px rgba(0, 0, 0, 0.9) !important;
+  border-color: #00ffea !important;
+}
+
 
