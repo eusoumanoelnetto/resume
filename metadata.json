@@ -1,0 +1,8 @@
+{
+  "name": "Manoel Neto - Portfolio & Resume",
+  "description": "Portfólio interativo e currículo de Manoel Neto - Analista de Tecnologia Jr, QA, Suporte, DevOps e Dados.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

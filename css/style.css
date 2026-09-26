@@ -215,14 +215,139 @@ body.black-mirror-mode .w3-light-grey {
   line-height: 1.2;
 }
 
-/* Print adjustments */
+/* ==========================================================================
+   Print Styles (Optimized for Clean & Professional Physical Resume Copies)
+   ========================================================================== */
 @media print {
-  .skills-ats-only,
-  .btn-download,
+  @page {
+    margin: 1.2cm 1cm;
+    size: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #212121 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Hide navigation, language switcher, buttons, and non-essential web elements */
+  .w3-top,
   .lang-btn,
+  .btn-download,
+  #downloadCvBtn,
   .black-mirror-container,
-  #toggleBlackMirror {
+  #toggleBlackMirror,
+  .w3-button,
+  button,
+  .skills-ats-only,
+  footer {
     display: none !important;
+  }
+
+  /* Reset layout containers and margins */
+  .w3-content {
+    max-width: 100% !important;
+    margin-top: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .w3-row-padding,
+  .w3-row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Preserve two-column layout on paper */
+  .w3-col.m4 {
+    width: 32% !important;
+    float: left !important;
+    padding-right: 12px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .w3-col.m8 {
+    width: 68% !important;
+    float: left !important;
+    padding-left: 12px !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Remove shadows for crisp printing on white paper */
+  .w3-card,
+  .w3-card-2,
+  .w3-card-4,
+  .w3-white {
+    box-shadow: none !important;
+    border: none !important;
+    background: #ffffff !important;
+  }
+
+  /* Avatar image styling for print */
+  .w3-display-container img {
+    border-radius: 4px;
+    max-height: 260px;
+    object-fit: cover;
+  }
+
+  /* Prevent awkward page break splits inside items */
+  .w3-container,
+  .education-item,
+  .w3-card,
+  .technical-competencies,
+  .skills,
+  #projetos .w3-third {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Keep headings close to following text */
+  h2, h3, h4, h5, h6 {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  /* Compact section padding to save paper space */
+  .w3-padding-16 {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .w3-margin-bottom {
+    margin-bottom: 14px !important;
+  }
+
+  /* Ensure scroll-entrance animations do not hide content */
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    visibility: visible !important;
+  }
+
+  /* Project cards layout on paper */
+  #projetos .w3-third {
+    width: 33.333% !important;
+    float: left !important;
+    padding: 0 4px !important;
+  }
+
+  /* Clear floats after grid */
+  .w3-row-padding::after,
+  .w3-row::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
@@ -235,3 +360,42 @@ body.black-mirror-mode .w3-light-grey {
     box-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea, 0 0 40px #00ffea;
   }
 }
+
+/* ==========================================================================
+   Entrance Animations (Fade-in & Slide-up on Scroll)
+   ========================================================================== */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delay classes for smoother item presentation */
+.reveal-delay-1 {
+  transition-delay: 0.1s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.2s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.3s;
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+

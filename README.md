@@ -7,7 +7,7 @@
 ## 🏢 Professional Background
 
 - 🚀 **IT Support Technician / ERP Systems** at Sonho do Artesão *(Sep 2024 – Present)*  
-- 🎓 **Bachelor's in Cybersecurity** from [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
+- 🎓 **Systems Analysis and Development** at Unifatecie *(In Progress - 1st Semester)*
 
 ---
 
@@ -75,7 +75,7 @@
 ## 🏢 Atuação Profissional
 
 - 🚀 **Técnico de Suporte em TI / Sistemas ERP** na Sonho do Artesão *(Set 2024 – Atual)*  
-- 🎓 **Graduação em Segurança Cibernética** no [Uniasselvi](https://portal.uniasselvi.com.br/graduacao/tecnologo/tecnologia-em-seguranca-cibernetica/ead)
+- 🎓 **Análise e Desenvolvimento de Sistemas** na Unifatecie *(Cursando - 1º Semestre)*
 
 ---
 
